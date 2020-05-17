@@ -26,6 +26,7 @@ Most types in your schema will just be normal object types, but below types that
 schema {
   query: Query
   mutation: Mutation
+  subscription: Subscription // for streams  
 }
 </pre>
 
